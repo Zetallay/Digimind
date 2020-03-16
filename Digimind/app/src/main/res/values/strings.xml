@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Digimind</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="practice">Practice</string>
+    <string name="everyday">Everyday</string>
+    <string name="hora">17:00</string>
+    <string name="what_do_you_want">What do you want remember to do?</string>
+    <string name="when_do_you_want">When do you want to do it?</string>
+    <string name="what_time">At what time?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
