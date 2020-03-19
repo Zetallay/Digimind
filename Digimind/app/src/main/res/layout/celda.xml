@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="120dp"
+    android:padding="4dp">
 
     <LinearLayout
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="@drawable/forma"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingVertical="20dp">
 
 
         <TextView
-            android:id="@+id/practice"
-            android:layout_marginTop="15dp"
-            android:textSize="20dp"
+            android:id="@+id/title"
+            android:gravity="center"
+            android:textSize="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/practice"
             android:textColor="@color/textoGrid"
-            android:gravity="center"></TextView>
+            ></TextView>
 
         <TextView
-            android:id="@+id/day"
+            android:id="@+id/tv_days"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="17dp"
             android:text="@string/everyday"
             android:gravity="center"
-            android:layout_marginTop="10dp"
-            android:textSize="15dp"
+            android:autoSizeTextType="uniform"
+            android:textSize="10sp"
             android:textColor="@color/textoGrid"></TextView>
 
         <TextView
-            android:id="@+id/time"
-            android:textSize="20dp"
+            android:id="@+id/tv_time"
+            android:textSize="14sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/hora"
-            android:layout_marginTop="10dp"
             android:textColor="@color/textoGrid"
             android:gravity="center"></TextView>
 

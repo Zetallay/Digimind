@@ -7,4 +7,5 @@
     <color name="celdas">#9CE1E1</color>
     <color name="preguntas">#915287</color>
     <color name="textoGrid">#00579A</color>
+    <color name="blanco">#FFFFFF</color>
 </resources>

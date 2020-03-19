@@ -1,3 +1,3 @@
 package acosta.roberto.digimind.ui
 
-data class Cuadro (var practice:String, var dia:String, var hora:String)
+data class Cuadro(var title:String, var days: ArrayList<String>, var time:String)
